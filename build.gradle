@@ -44,6 +44,10 @@ dependencies { // 프로젝트 개발에 필요한 의존성들을 선언하는 
     testCompile("org.springframework.security:spring-security-test")
 }
 
+bootJar {
+    mainClassName = 'dev.nemne.book.spring.Application'
+}
+
 test {
     exclude '**/*'
 }

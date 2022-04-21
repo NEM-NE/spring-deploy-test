@@ -9,5 +9,6 @@ public class Application {
     public static void main(String[] args) {
         // 별도로 외부에 WAS를 설치 하지 않아도 스프링 부트로 만들어진 Jar파일을 실행하면된다.
         SpringApplication.run(Application.class, args);
+        System.out.println("hi");
     }
 }
